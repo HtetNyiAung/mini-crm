@@ -10,7 +10,7 @@
   	@endforeach -->
 
   	<div>
-  		<a href="{{url('/create')}}" class="btn btn-success" role="button">Add Company</a>
+  		<a href="{{url('/create')}}" class="btn btn-success" role="button">Add New Company</a>
   	</div> <br>
 
   	@if(Session::has('status'))
